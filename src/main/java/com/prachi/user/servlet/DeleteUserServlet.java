@@ -32,7 +32,7 @@ public class DeleteUserServlet extends HttpServlet {
 		
 		e.printStackTrace();
 	} catch (SQLException e) {
-		// TODO Auto-generated catch block
+		
 		e.printStackTrace();
 	}
 	   
