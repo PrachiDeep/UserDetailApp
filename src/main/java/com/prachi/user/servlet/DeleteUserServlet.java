@@ -49,10 +49,10 @@ public class DeleteUserServlet extends HttpServlet {
 			PrintWriter out = response.getWriter();
 			if(result>0)
 			{
-				out.print("<H1>row deleted </H1>");
+				out.print("<H1>uSER REMOVED  </H1>");
 			}
 			else
-				out.print("<H1>ERROR deleting row</H1>");
+				out.print("<H1>ERROR REMOVING USER</H1>");
 		} catch (SQLException e) {
 			
 			e.printStackTrace();
